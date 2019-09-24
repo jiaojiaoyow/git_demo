@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<!-- 
+http://www.mybatis.org/mybatis-3/zh/index.html
+
+传参：https://www.cnblogs.com/duanhm234/p/7749415.html
+
+传多个参数：https://www.cnblogs.com/nongzihong/p/10317470.html
+
+命名空间：dao路径
+
+parameterType
+
+resultType
+
+#{}参数 
+
+动态sql：
+ <where>
+<if
+
+ <set>
+<if
+ --> 
+<mapper namespace="com.neu.t10.dao.SysDeptDao">
+
+	<delete id="delete">
+        delete from sys_dept where dept_id=#{id}
+    </delete>
+    
+    <select id="selectAll" resultType="SysDept">
+        select * from sys_dept
+    </select>
+    
+    <select id="selectById" parameterType="java.lang.Long" resultType="SysDept">
+        select * from sys_dept where dept_id=#{deptId}
+    </select>
+    
+    
+    <insert id="insert" parameterType="com.neu.t10.entity.SysDept"
+            useGeneratedKeys="true" keyProperty="deptId" keyColumn="dept_id">
+
+     insert into sys_dept(parent_id,name,order_num,del_flag) values
+     (#{parentId},#{name},#{orderNum},#{delFlag})
+
+     </insert>
+        <update id="update" parameterType="SysDept">
+        update sys_dept
+        <set>
+            <if test="parentId!=null and parentId!=''">
+                parent_id=${parentId},
+            </if>
+            <if test="name!=null and name!=''">
+                name=${name},
+            </if>
+            <if test="orderNum!=null and orderNum!=''">
+                order_num=${orderNum},
+            </if>
+            <if test="delFlag!=null">
+                del_flag=${delFlag},
+            </if>
+        </set>
+        where <if test="deptId!=null and deptId!=''">
+          dept_id=${deptId}
+          </if>
+    </update>
+    
+    
+    <select id="selectByPar" resultType="SysDept">
+		select * from sys_dept 
+		<where>
+			<if test="deptId != null and deptId != ''">
+				and dept_id=#{deptId}
+			</if>
+			<if test="parentId != null and parentId != ''">
+				and parent_id=#{parentId}
+			</if>
+			<if test="name != null and name != ''">
+				and name=#{name}
+			</if>
+			<if test="orderNum != null and orderNum != ''">
+				and order_num=#{orderNum}
+			</if>
+			<if test="delFlag != null and delFlag != ''">
+				and del_flag=#{delFlag}
+			</if>
+		</where>
+	</select>
+
+</mapper>
