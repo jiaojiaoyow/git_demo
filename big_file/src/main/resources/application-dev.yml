@@ -1,0 +1,26 @@
+#开发环境
+breakpoint:
+  upload:
+    dir: D:/data/uploads/
+    #1024*1024=1 048 576,5M=5 242 880
+    chunkSize: 5 242 880
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1
+  http:
+    multipart:
+    max-file-size: 5MB
+    max-request-size: 100MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/webupload?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- http://www.mybatis.org/mybatis-3/zh/index.html 传参：https://www.cnblogs.com/duanhm234/p/7749415.html 
+	传多个参数：https://www.cnblogs.com/nongzihong/p/10317470.html 命名空间：dao路径 -->
+<mapper namespace="com.neu.t10.dao.SysUserRoleDao">
+
+
+	<!-- 可根据自己的需求，是否要使用 -->
+	<resultMap type="com.neu.t10.entity.SysUserRole"
+		id="SysUserRoleMap">
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="user_id" property="userId" jdbcType="INTEGER" />
+		<result column="role_id" property="roleId" jdbcType="INTEGER" />
+	</resultMap>
+
+	<insert id="insertOne" parameterType="integer">
+		INSERT INTO sys_user_role (user_id,role_id) VALUES (#{userId},#{roleId})
+	</insert>
+
+	<insert id="insertManyList" parameterType="map">
+		<foreach collection="map.roleIdList" item="items"
+			index="index">
+			INSERT INTO sys_user_role (user_id,role_id) VALUES(#{map.userId},${items});
+		</foreach>
+	</insert>
+
+	<delete id="deleteByUserId" parameterType="integer">
+		delete from sys_user_role where user_id=#{userId}
+	</delete>
+
+
+	<select id="queryRoleIdList" resultType="long">
+		select b.role_id from sys_user a,sys_user_role b where a.user_id=b.user_id
+		and a.user_id=#{userId}
+	</select>
+
+	<!-- resultType="map" #{userId} -->
+	<select id="queryRoleIdList2" resultType="map">
+		select d.name,b.role_name from sys_user a,sys_role b, sys_user_role
+		c,sys_dept d where
+		a.user_id=c.user_id and b.role_id=c.role_id
+		and a.dept_id=d.dept_id and a.username=#{username}
+
+	</select>
+
+	<select id="queryRoleIdList3" resultType="map">
+		select b.*,a.* from sys_user a,sys_user_role b where a.user_id=b.user_id and
+		a.user_id=#{userId}
+	</select>
+
+	<!-- MyBatis两张表字段名相同， 会导致bean属性都映射为第一个表的列 -->
+	<select id="queryRoleIdList4" resultType="map">
+		select a.username,a.user_id,b.role_id,count(b.role_id) as num from sys_user
+		a,sys_user_role b where a.user_id=b.user_id group by b.role_id
+	</select>
+
+</mapper>

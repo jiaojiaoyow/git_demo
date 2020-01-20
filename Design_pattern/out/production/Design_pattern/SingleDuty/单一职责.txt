@@ -1,0 +1,5 @@
+由于过度的使用继承使java文件过于复杂
+
+典型模式
+Decorator：装饰模式
+Bridge

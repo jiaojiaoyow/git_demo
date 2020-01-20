@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<!-- 
+http://www.mybatis.org/mybatis-3/zh/index.html
+
+传参：https://www.cnblogs.com/duanhm234/p/7749415.html
+
+传多个参数：https://www.cnblogs.com/nongzihong/p/10317470.html
+
+命名空间：dao路径
+
+parameterType
+
+resultType
+
+#{}参数 
+
+动态sql：
+ <where>
+<if
+
+ <set>
+<if
+ --> 
+<mapper namespace="com.neu.t10.dao.SysMenuDao">
+
+  <insert id="insert" parameterType="SysMenu"  >
+        insert into sys_menu(parent_id,name,url,perms,type,icon,order_num) values(#{parentId},#{name},#{url},#{perms},#{type},#{icon},#{orderNum})
+    </insert>
+
+
+    <select id="selectAll" resultType="SysMenu">
+        select * from sys_menu
+    </select>
+	 
+	 
+	 <select id="selectById" resultType="SysMenu">
+	   select * from sys_menu where menu_id=#{id}
+	 </select>
+	 
+	 
+	 <delete id="delete">
+	 delete from sys_menu where menu_id=#{menuId}
+	 </delete>
+	 
+	 <!-- 根据父菜单查询子菜单 -->
+    <select id="selectByPid" parameterType="Long" resultType="SysMenu">
+        select * from sys_menu
+        where parent_id=#{pid}
+    </select>
+	 
+	 
+	 <update id="update">   
+      update sys_menu  
+       <trim prefix="set" suffixOverrides=",">
+          <if test="parentId!=null and parentId!=''">
+          parent_id=#{parentId},        
+          </if>
+          <if test="name!=null and name!=''">
+          name=#{name},        
+          </if>
+          <if test="url!=null and url!=''">
+          url=#{url},        
+          </if>
+          <if test="perms!=null and perms!=''">
+          perms=#{perms},        
+          </if>
+          <if test="type!=null and type!=''">
+          type=#{type},        
+          </if>
+          <if test="icon!=null and icon!=''">
+          icon=#{icon},        
+          </if>
+          <if test="orderNum!=null and orderNum!=''">
+          order_num=#{orderNum},        
+          </if>
+       </trim>
+      where menu_id=#{menuId}
+     </update>
+	 
+
+</mapper>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<!-- 
+命名空间：dao路径
+ --> 
+<mapper namespace="com.example.demo.dao.uploadDao">
+    <insert id="insertFileInfo" parameterType="File">
+
+        insert into file(file_name,file_path,file_size,md5value) values(#{fileName},#{filePath},#{fileSize},#{md5value})
+
+    </insert>
+
+    <select id="selectIdBymd5value" parameterType="java.lang.String" resultType="java.lang.Object">
+        select id from file where md5value = #{md5value}
+    </select>
+    <insert id="insertUserInfo" parameterType="User">
+        insert into user(user_id,file_id) values(#{userId},#{fileId})
+    </insert>
+
+    <select id="selectFile" resultType="File">
+        select * from file
+    </select>
+    <select id="selectFileById" resultType="File" parameterType="java.lang.Integer">
+        select * from file where id=#{id}
+    </select>
+    <insert id="insertImgInfo" parameterType="Img">
+        insert into img(img_name,img_path) values(#{imgName},#{imgPath})
+    </insert>
+    <select id="selectImg" resultType="Img">
+        select * from Img
+    </select>
+</mapper>

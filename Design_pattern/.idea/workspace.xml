@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee0cbf01-cd47-4944-9781-04f7fca53459" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Observer/ConcreateSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/StrategyMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/StrategyMethod1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/StrategyMethod2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/TemplateMethod/TemplateMethodDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/TemplateMethod/TemplateMethodUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComponentCollaboration/协作模式.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FatherOrSon/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FatherOrSon/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FatherOrSon/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingleDuty/Bridge/HandsetBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingleDuty/Decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingleDuty/Decorator/Compent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingleDuty/Decorator/ConcreteDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingleDuty/Decorator/ConcreteDecorator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingleDuty/Decorator/ConretetComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingleDuty/Decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingleDuty/单一职责.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonMode/SingletonMode1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/src/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/src/testOther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro_demo/redis/t10/src/main/java/com/neu/t10/config/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro_demo/redis/t10/src/main/java/com/neu/t10/config/RedisCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro_demo/redis/t10/src/main/java/com/neu/t10/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro_demo/redis/t10/src/main/java/com/neu/t10/config/RedisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro_demo/redis/t10/src/main/java/com/neu/t10/config/RedisSessionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro_demo/redis/t10/src/main/java/com/neu/t10/config/ShiroSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro_demo/redis/t10/src/main/java/com/neu/t10/exceptions/PrincipalIdNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro_demo/redis/t10/src/main/java/com/neu/t10/exceptions/PrincipalInstanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro_demo/redis/t10/src/main/java/com/neu/t10/util/SerializeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Auto_ApiFile/Auto_online" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto_ApiFile/Auto_online" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scaffold" beforeDir="false" afterPath="$PROJECT_DIR$/../Scaffold" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCache" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_api" beforeDir="false" afterPath="$PROJECT_DIR$/../auto_api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo" beforeDir="false" afterPath="$PROJECT_DIR$/../demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../log_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis" beforeDir="false" afterPath="$PROJECT_DIR$/../redis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/ER.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/Controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/Realm/MyShiroRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/T10Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/config/ShiroConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysDeptDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysMenuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysRoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysRoleMenuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysUserRoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysRoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/util/UserRegisteSalt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysDeptDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysMenuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysRoleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysRoleMenuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysUserRoleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/static/js/jquery-3.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/templates/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/templates/manage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysDeptDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysMenuDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysRoleDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysRoleMenuDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysUserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysUserRoleDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/t10.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../微信小程序/wx_login" beforeDir="false" afterPath="$PROJECT_DIR$/../微信小程序/wx_login" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../我的逆向工程" beforeDir="false" afterPath="$PROJECT_DIR$/../我的逆向工程" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-86515809">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.48" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="32" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="32" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="5" />
+          <entry key="java" value="3001" />
+          <entry key="txt" value="133" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3001" />
+          <entry key="PLAIN_TEXT" value="138" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SingleDuty/Bridge/HandsetBrand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="3" selection-start-line="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/协作模式.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/ConcreateSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SingleDuty/Decorator/ConcreteDecorator1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FatherOrSon/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/SingletonMode/SingletonMode.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/SingletonMode/SingletonMode1.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethod.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethod/TemplateMethod.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethod/TemplateMethodDown.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethod/TemplateMethodUp.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/TemplateMethod/TemplateMethodUp.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/StrategyMethod.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/StrategyMethod1.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/StrategyMethod2.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/Context.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Strategy/test.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/协作模式.txt" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer1.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Subject.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer2.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Observer/ConcreateSubject.java" />
+        <option value="$PROJECT_DIR$/src/FatherOrSon/Father.java" />
+        <option value="$PROJECT_DIR$/src/FatherOrSon/Son.java" />
+        <option value="$PROJECT_DIR$/src/FatherOrSon/test.java" />
+        <option value="$PROJECT_DIR$/src/SingleDuty/单一职责.txt" />
+        <option value="$PROJECT_DIR$/src/SingleDuty/Decorator/ConretetComponent.java" />
+        <option value="$PROJECT_DIR$/src/SingleDuty/Decorator/Compent.java" />
+        <option value="$PROJECT_DIR$/src/SingleDuty/Decorator/ConcreteDecorator.java" />
+        <option value="$PROJECT_DIR$/src/SingleDuty/Decorator/Decorator.java" />
+        <option value="$PROJECT_DIR$/src/SingleDuty/Decorator/ConcreteDecorator1.java" />
+        <option value="$PROJECT_DIR$/src/SingleDuty/Decorator/Client.java" />
+        <option value="$PROJECT_DIR$/src/SingleDuty/Bridge/HandsetBrand.java" />
+        <option value="$PROJECT_DIR$/src/ComponentCollaboration/Observer/Client.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Idea_Maven\m2\repository" />
+        <option name="userSettingsFile" value="D:\Idea_Maven\m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="837" />
+    <option name="y" value="137" />
+    <option name="width" value="1085" />
+    <option name="height" value="880" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ComponentCollaboration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ComponentCollaboration" type="462c0819:PsiDirectoryNode" />
+              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ComponentCollaboration" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SingletonMode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579082656519" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingleDuty.Decorator.Client" />
+      <module name="Design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingleDuty.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComponentCollaboration.Observer.Client" />
+      <module name="Design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ComponentCollaboration.Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateMethodDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComponentCollaboration.TemplateMethod.TemplateMethodDown" />
+      <module name="Design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ComponentCollaboration.TemplateMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FatherOrSon.test" />
+      <module name="Design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FatherOrSon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComponentCollaboration.Strategy.test" />
+      <module name="Design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ComponentCollaboration.Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TemplateMethodDown" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.test (1)" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.TemplateMethodDown" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee0cbf01-cd47-4944-9781-04f7fca53459" name="Default Changelist" comment="" />
+      <created>1578382921756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578382921756</updated>
+      <workItem from="1578382925470" duration="5934000" />
+      <workItem from="1578446748748" duration="6400000" />
+      <workItem from="1578533521012" duration="12029000" />
+      <workItem from="1578623551203" duration="1337000" />
+      <workItem from="1578758112749" duration="463000" />
+      <workItem from="1578803976518" duration="244000" />
+      <workItem from="1578879028762" duration="281000" />
+      <workItem from="1579081660998" duration="794000" />
+      <workItem from="1579137746049" duration="85000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27567000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="670" y="110" width="868" height="704" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40987656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20325203" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40401146" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SingleDuty/Decorator/Client.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="compent" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonMode/SingletonMode1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/TemplateMethod/TemplateMethodUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Strategy/StrategyMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Strategy/StrategyMethod1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Strategy/StrategyMethod2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Strategy/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/TemplateMethod/TemplateMethodDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FatherOrSon/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FatherOrSon/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleDuty/Bridge.java" />
+    <entry file="file://$PROJECT_DIR$/src/SingleDuty/单一职责.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleDuty/Decorator/Compent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleDuty/Decorator/ConretetComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleDuty/Decorator/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleDuty/Decorator/ConcreteDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleDuty/Decorator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleDuty/Bridge/HandsetBrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/协作模式.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/ConcreateSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleDuty/Decorator/ConcreteDecorator1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FatherOrSon/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Observer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComponentCollaboration/Observer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

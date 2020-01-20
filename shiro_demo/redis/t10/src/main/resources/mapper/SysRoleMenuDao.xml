@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<!-- 
+http://www.mybatis.org/mybatis-3/zh/index.html
+
+传参：https://www.cnblogs.com/duanhm234/p/7749415.html
+
+传多个参数：https://www.cnblogs.com/nongzihong/p/10317470.html
+
+命名空间：dao路径
+
+parameterType
+
+resultType
+
+#{}参数 
+
+动态sql：
+ <where>
+<if
+
+ <set>
+<if
+ --> 
+<mapper namespace="com.neu.t10.dao.SysRoleMenuDao">
+
+	 <resultMap id="Base_Result_Map" type="com.neu.t10.dao.SysRoleMenuDao">
+        <id column="id" property="id"></id>
+        <result column="role_id" property="roleId"></result>
+        <result column="menu_id" property="menuId"></result>
+    </resultMap>
+    
+	<insert id="insertOne" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        INSERT into sys_role_menu (id,role_id,menu_id) values (null,#{roleId},#{menuId})
+    </insert>
+
+<insert id="insertList" >
+insert into sys_role_menu(role_id,menu_id) values
+<trim suffixOverrides=",">
+<foreach collection="menuIds" item="mes">
+ (#{roleId},#{mes}),
+</foreach>
+</trim>
+</insert>
+
+	<delete id="deleteByroleId">
+        delete from sys_role_menu where  role_id = #{roleId}
+    </delete>
+
+</mapper>

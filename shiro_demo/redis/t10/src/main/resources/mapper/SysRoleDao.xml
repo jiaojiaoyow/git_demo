@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<!-- 
+http://www.mybatis.org/mybatis-3/zh/index.html
+
+传参：https://www.cnblogs.com/duanhm234/p/7749415.html
+
+传多个参数：https://www.cnblogs.com/nongzihong/p/10317470.html
+
+命名空间：dao路径
+
+parameterType
+
+resultType
+
+#{}参数 
+
+动态sql：
+ <where>
+<if
+
+ <set>
+<if
+ --> 
+<mapper namespace="com.neu.t10.dao.SysRoleDao">
+
+	 <select id="selectAll" resultType="SysRole">
+        select  * from sys_role
+    </select>
+    
+    
+    <select id="selectById" resultType="SysRole">
+        select * from sys_role where role_id=#{id}
+    </select>
+    
+    
+     <select id="selectByPar" resultType="SysRole" parameterType="SysRole">
+        select * from sys_role
+        <where>
+            <if test="roleName != null and roleName != '' ">
+                role_name like '%${roleName}%'
+            </if>
+        </where>
+    </select>
+    
+    <insert id="insert" parameterType="SysRole"
+            useGeneratedKeys="true" keyProperty="roleId" keyColumn="role_id">
+
+     insert into sys_role(role_name,remark,create_date,create_by) values
+     (#{roleName},#{remark},#{createDate},#{createBy})
+
+     </insert>
+     
+     
+    <update id="update">
+        update sys_role
+        <trim prefix="set" suffixOverrides=",">
+            <if test="roleId!=null and roleId!=''">
+                role_id=#{roleId},
+            </if>
+            <if test="roleName!=null and roleName!=''">
+                role_name=#{roleName},
+            </if>
+            <if test="remark!=null and remark!=''">
+                remark=#{remark},
+            </if>
+            <if test="createDate!=null">
+                create_date=#{createDate},
+            </if>
+            <if test="createBy!=null ">
+                create_by=#{createBy},
+            </if>
+        </trim>
+        where role_id=#{roleId}
+    </update>
+     
+    <delete id="delete">
+
+        delete from sys_role where role_id=#{id}     
+     </delete>
+
+
+    <select id="selectRoleMenu" resultType="com.neu.t10.entity.SysMenu" >
+        select sm.menu_id ,parent_id,name,url,perms,type,icon,order_num
+        FROM sys_role  sr
+        join  sys_role_menu srm ON sr.role_id=srm.role_id
+        join sys_menu  sm ON srm.menu_id=sm.menu_id
+    </select>
+
+</mapper>

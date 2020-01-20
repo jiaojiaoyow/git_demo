@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- logback设置文件 -->
+<configuration>
+<!-- 日志级别从低到高分为TRACE < DEBUG < INFO < WARN < ERROR < FATAL，如果设置为WARN，则低于WARN的信息都不会输出 -->
+
+
+ <!-- 格式化输出：%date表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度 %msg：日志消息，%n是换行符-->
+    <property name="LOG_PATTERN" value="%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n" />
+    
+    <!-- 控制台输出日志 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- 按照上面配置的LOG_PATTERN来打印日志 -->
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+    
+    
+    
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_PATH}${LOG_FILE}</File>
+        <encoder>
+            <pattern>%date [%level] [%thread] %logger{60} [%file : %line] %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}daily/${LOG_FILE}.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <maxHistory>180</maxHistory> <!-- 保留180天 -->
+        </rollingPolicy>
+    </appender>
+    
+    
+    <!-- 启用 -->
+     <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+        
+    </root>
+    
+</configuration>

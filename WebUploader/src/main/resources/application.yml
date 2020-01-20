@@ -1,0 +1,39 @@
+logging:
+  level:
+    root: error
+    org.springframework: debug
+  path: logs/
+  file: admin.log
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    cache: false
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+    favicon:
+      enabled: false
+    static-path-pattern: /static/**
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/webupload?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  resources:
+    static-locations: classpath:/resources,classpath:/static,classpath:/public,classpath:/META-INF/resources,file:static/
+  servlet:
+    multipart:
+      max-request-size: -1
+      max-file-size: -1
+  devtools:
+    restart:
+      enabled: true
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.example.demo.entity
+  configuration:
+    map-underscore-to-camel-case: true
+server:
+  port: 8080
+

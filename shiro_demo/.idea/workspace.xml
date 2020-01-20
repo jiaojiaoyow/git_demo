@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="683fae3a-7567-4fb3-ad9e-200b8b16ffae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Observer/ConcreateSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Observer/Observer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Observer/Observer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Strategy/StrategyMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Strategy/StrategyMethod1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Strategy/StrategyMethod2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/Strategy/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/TemplateMethod/TemplateMethodDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/TemplateMethod/TemplateMethodUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/ComponentCollaboration/协作模式.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/FatherOrSon/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/FatherOrSon/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/FatherOrSon/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/SingleDuty/Bridge/HandsetBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/SingleDuty/Decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/SingleDuty/Decorator/Compent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/SingleDuty/Decorator/ConcreteDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/SingleDuty/Decorator/ConcreteDecorator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/SingleDuty/Decorator/ConretetComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/SingleDuty/Decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/SingleDuty/单一职责.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/SingletonMode/SingletonMode1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/java/com/example/demo/Controller/fileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/java/com/example/demo/Param/fileParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/java/com/example/demo/Utils/constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/java/com/example/demo/Utils/fileMD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/css/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/css/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/image/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/image/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/image/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/image/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/image/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/images/aiwrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/fpUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/xadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/js/xcity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/static/lib/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/templates/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/templates/download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../big_file/src/main/resources/templates/fpdemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/src/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/src/testOther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/t10/src/main/java/com/neu/t10/config/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/t10/src/main/java/com/neu/t10/config/RedisCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/t10/src/main/java/com/neu/t10/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/t10/src/main/java/com/neu/t10/config/RedisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/t10/src/main/java/com/neu/t10/config/RedisSessionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/t10/src/main/java/com/neu/t10/config/ShiroSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/t10/src/main/java/com/neu/t10/exceptions/PrincipalIdNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/t10/src/main/java/com/neu/t10/exceptions/PrincipalInstanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/t10/src/main/java/com/neu/t10/util/SerializeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Auto_ApiFile/Auto_online" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto_ApiFile/Auto_online" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scaffold" beforeDir="false" afterPath="$PROJECT_DIR$/../Scaffold" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCache" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_api" beforeDir="false" afterPath="$PROJECT_DIR$/../auto_api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo" beforeDir="false" afterPath="$PROJECT_DIR$/../demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../log_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis" beforeDir="false" afterPath="$PROJECT_DIR$/../redis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/ER.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/Controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/Realm/MyShiroRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/T10Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/config/ShiroConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysDeptDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysMenuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysRoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysRoleMenuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/dao/SysUserRoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysRoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/entity/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/java/com/neu/t10/util/UserRegisteSalt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysDeptDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysMenuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysRoleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysRoleMenuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/mapper/SysUserRoleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/static/js/jquery-3.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/templates/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/main/resources/templates/manage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysDeptDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysMenuDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysRoleDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysRoleMenuDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysUserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/src/test/java/com/neu/t10/dao/SysUserRoleDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t10/t10.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../微信小程序/wx_login" beforeDir="false" afterPath="$PROJECT_DIR$/../微信小程序/wx_login" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../我的逆向工程" beforeDir="false" afterPath="$PROJECT_DIR$/../我的逆向工程" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1255407595">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Idea_Maven\m2\repository" />
+        <option name="userSettingsFile" value="D:\Idea_Maven\m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="75" />
+    <option name="width" value="785" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shiro_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="t10" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/encache" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="683fae3a-7567-4fb3-ad9e-200b8b16ffae" name="Default Changelist" comment="" />
+      <created>1579422149847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579422149847</updated>
+      <workItem from="1579422151710" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09517426" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
