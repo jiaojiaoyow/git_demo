@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Auto_ApiFile/Auto_local" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Auto_ApiFile/Auto_online" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ELK" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Scaffold" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringCache" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/auto_api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/auto_create" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fileload" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/log_demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/money_transfer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mybatis-plus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mybatis-pool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pxproject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/redis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/redis_Seckill" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shiro(自己写的)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shiro模板/spring-boot-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/微信小程序/wx_login" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/我的逆向工程" vcs="Git" />
+  </component>
+</project>
